@@ -13,12 +13,12 @@ import addCount from './addCount.vue'
 import supCount from './supCount.vue'
 export default {
 
-    components:{addCount,supCount},
-  data() {
+  components: {addCount, supCount},
+  data () {
     return {
-      
+
     }
-  },
+  }
 }
 </script>
 
