@@ -36,7 +36,7 @@ addAsync(content, step) {
 	this.$store.dispatch(actions中定义的方法名,可选参数)
 3. 在 methods 中用 ...mapMutations ...mapAcations
 	methods: {
-		...mapMutations(['sup','sup1'])
+		...mapMutations(['sup','supN'])
 		...mapAcations(['supAsync','subAsync'])
 	}
 	模板中：<button @click="sup1"> -1 </button>
