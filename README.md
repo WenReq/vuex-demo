@@ -29,7 +29,7 @@ addAsync(content, step) {
 	}
 	{{ count }}
 	{{ showNum }}
-#事件触发：
+# 事件触发：
 1. commit 调用某个 mutations 函数
 	this.$store.commit(mutations中定义的方法名,可选参数)
 2. dispatch 调用某个 actions 函数
@@ -39,9 +39,10 @@ addAsync(content, step) {
 		...mapMutations(['sup','sup1'])
 		...mapAcations(['supAsync','subAsync'])
 	}
-	模板中：<button @click="sup1">-1</button>
+	模板中：<button @click="sup1"> -1 </button>
 	methods中：sup1 () { this.sup() },
 ```
+
 ## Build Setup
 
 ``` bash
